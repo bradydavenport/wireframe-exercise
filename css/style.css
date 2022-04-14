@@ -49,7 +49,7 @@ nav li {
 main {
   width: 100%;
   border-style: dashed;
-  width: max-content;
+  width: 960px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
@@ -64,18 +64,25 @@ main img {
   margin-bottom: 30px;
 }
 
-section {
-  
-}
-
-section img {
+/* section img {
   height: auto;
   width: auto;
-}
+} */
 
 #subbanners {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content:space-between;
+}
+
+#subbanners img {
+  height: auto;
+  width: auto;
+}
+
+#feature img {
+  float: left;
+  height: 480px;
+  width: 400px;
 }
